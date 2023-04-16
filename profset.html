@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Settings</title>
+    <link href="profset.css" rel="stylesheet">
+    <script src = "profset.js"></script>
+    <script>
+      window.onload = function() {
+			document.getElementById( 'show').value = '';
+      document.getElementById( 'lname').value = '';
+      document.getElementById( 'lname1').value = '';
+      document.getElementById( 'lname2').value = '';
+      document.getElementById('date').selectedIndex = 0;
+      document.getElementById('month').selectedIndex = 0;
+      document.getElementById('year').selectedIndex = 0;
+      document.getElementById('show').checked = false;
+		}
+    </script>
+</head>
+<body>
+  <div id="bye">
+
+    <span><h id="h">Profile Settings</h></span>
+    <div id="hi">
+    <form >
+  <p>Username: </p>
+  <label id="use" for="lname">Change Username</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <p>Password: </p>
+
+  <label id="use" for="lname">Change password</label>
+  <input type="password" id="lname1" name="lname"><br>
+  <input id="show" type="checkbox" onclick="myFunction()">Show Password<br><br>
+  <p>D.O.B.:<select name="date" id="date"></p>
+    <option value="" selected="selected"> Date</option>
+    <option value="" selected="selected"> 01</option>
+    <option value="" selected="selected"> 02</option>
+    <option value="" selected="selected"> 03</option>
+    <option value="" selected="selected"> 04</option>
+    <option value="" selected="selected"> 06</option>
+    <option value="" selected="selected"> 07</option>
+    <option value="" selected="selected"> 08</option>
+    <option value="" selected="selected"> 09</option>
+    <option value="" selected="selected"> 10</option>
+    <option value="" selected="selected"> 11</option>
+    <option value="" selected="selected"> 12</option>
+    <option value="" selected="selected"> 13</option>
+    <option value="" selected="selected"> 14</option>
+    <option value="" selected="selected"> 15</option>
+    <option value="" selected="selected"> 16</option>
+    <option value="" selected="selected"> 17</option>
+    <option value="" selected="selected"> 18</option>
+    <option value="" selected="selected"> 19</option>
+    <option value="" selected="selected"> 20</option>
+    <option value="" selected="selected"> 21</option>
+    <option value="" selected="selected"> 22</option>
+    <option value="" selected="selected"> 23</option>
+    <option value="" selected="selected"> 24</option>
+    <option value="" selected="selected"> 25</option>
+    <option value="" selected="selected"> 26</option>
+    <option value="" selected="selected"> 27</option>
+    <option value="" selected="selected"> 28</option>
+    <option value="" selected="selected"> 29</option>
+    <option value="" selected="selected"> 30</option>
+    <option value="" selected="selected"> 31</option>
+
+
+      </select>
+      <select name="month" id="month">
+        <option value="" selected="selected">Month</option>
+        <option value="" selected="selected"> Jan</option>
+        <option value="" selected="selected"> Feb</option>
+        <option value="" selected="selected"> Mar</option>
+        <option value="" selected="selected"> Apr</option>
+        <option value="" selected="selected"> May</option>
+        <option value="" selected="selected"> June</option>
+        <option value="" selected="selected"> July</option>
+        <option value="" selected="selected"> Aug</option>
+        <option value="" selected="selected"> Sept</option>
+        <option value="" selected="selected"> Oct</option>
+        <option value="" selected="selected"> Nov</option>
+        <option value="" selected="selected"> Dec</option>
+    
+      </select>
+      <select name="year" id="year">
+        <option value="" selected="selected"> Year</option>
+        <option value="" selected="selected"> 1990</option>
+        <option value="" selected="selected"> 1991</option>
+        <option value="" selected="selected"> 1992</option>
+        <option value="" selected="selected"> 1993</option>
+        <option value="" selected="selected"> 1994</option>
+        <option value="" selected="selected"> 1995</option>
+        <option value="" selected="selected"> 1996</option>
+        <option value="" selected="selected"> 1997</option>
+        <option value="" selected="selected"> 1998</option>
+        <option value="" selected="selected"> 1999</option>
+        <option value="" selected="selected"> 2000</option>
+        <option value="" selected="selected"> 2001</option>
+        <option value="" selected="selected"> 2002</option>
+        <option value="" selected="selected"> 2003</option>
+        <option value="" selected="selected"> 2004</option>
+        <option value="" selected="selected"> 2005</option>
+        <option value="" selected="selected"> 2006</option>
+        <option value="" selected="selected"> 2007</option>
+        <option value="" selected="selected"> 2008</option>
+        <option value="" selected="selected"> 2009</option>
+        <option value="" selected="selected"> 2010</option>
+        <option value="" selected="selected"> 2011</option>
+        <option value="" selected="selected"> 2012</option>
+        <option value="" selected="selected"> 2013</option>
+        <option value="" selected="selected"> 2014</option>
+        <option value="" selected="selected"> 2015</option>
+        <option value="" selected="selected"> 2016</option>
+
+</select>
+<p>Email: </p>
+  <label id="use" for="lname">Change Email</label>
+  <input type="text" id="lname2" name="lname"><br><br>
+
+  <button id="sub" type="submit" onclick="myfunction()" >Save Changes</button>
+  
+</form>
+</div>
+  </div>
+
+</body>
+</html>
