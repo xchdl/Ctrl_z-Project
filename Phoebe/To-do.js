@@ -9,7 +9,6 @@ document.querySelector('#butn').onclick = function(){
                     ${document.querySelector('#todo input').value}
                 </span>
                 <button class="delete">
-                    <i class="far fa-trash-alt"></i>
                 </button>
             </div> `;
 
