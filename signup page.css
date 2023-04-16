@@ -17,7 +17,7 @@ input[type=text], input[type=password] {
     margin-bottom: 25px;
   }
   
-  /* Set a style for all buttons */
+  
   button {
     background-color: blanchedalmond;
     color: black;
@@ -33,32 +33,32 @@ input[type=text], input[type=password] {
     opacity:5;
   }
   
-  /* Extra styles for the cancel button */
+
   .cancel {
     padding: 14px 20px;
     background-color: gray;
     color: white;
   }
   
-  /* Float cancel and signup buttons and add an equal width */
+  
   .cancel, .signup {
     float: left;
     width: 50%;
   }
   
-  /* Add padding to container elements */
+ 
   .container {
     padding: 16px;
   }
   
-  /* Clear floats */
+
   .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
   
-  /* Change styles for cancel button and signup button on extra small screens */
+  
   @media screen and (max-width: 300px) {
     .cancel, .signup {
       width: 100%;
