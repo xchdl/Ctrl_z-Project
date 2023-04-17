@@ -15,9 +15,22 @@ body {
     header {
         font-family: 'Times New Roman', Times, serif;
         text-align: center;
-        color: #B71414;
-        text-shadow: 2px 2px white;
+        color: #7a644a;
+        background-color: #e2c9a7;
+        margin: 0;
+        width: 100%;
+        width: 100%;
+        height: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        border: 2px solid #e2c9a7;
+        padding: 12px; 
+        position: relative;
+        border-radius: 5px;
+        bottom: 5px;
+     
     }
+    
 
     body{
         height: 100vh;
@@ -29,8 +42,10 @@ body {
         margin: auto;
         left: 0;
         right: 0;
-        top: 30px;
+        top: 80px;
         padding: 30px 40px;
+        
+        
     }
     #todo{
         position: relative;
@@ -110,3 +125,4 @@ body {
         text-decoration: line-through;
         color: red;
     }
+
