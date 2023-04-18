@@ -7,13 +7,12 @@ signupForm.addEventListener("submit", function(event) {
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
 
-  // Store the new user's information in localStorage
+  
   localStorage.setItem(username, JSON.stringify({ email, password }));
 
-  window.location.href = "Login page.html"; // Redirect to login page
+  window.location.href = "Login page.html"; 
 });
 
-// Handle login form submission
 const loginForm = document.getElementById("login-form");
 
 loginForm.addEventListener("form-submit", function(event) {
@@ -22,11 +21,11 @@ loginForm.addEventListener("form-submit", function(event) {
   const username = document.getElementById("username-field").value;
   const password = document.getElementById("password-field").value;
 
-  // Retrieve the user's information from localStorage
+  
   const user = JSON.parse(localStorage.getItem(username));
 
   if (user && user.password === password) {
-    window.location.href = "Welcome Page.html"; // Redirect to home page
+    window.location.href = "Welcome Page.html"; 
   } else {
     loginErrorMessage.style.opacity = 1;
   }
