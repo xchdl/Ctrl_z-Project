@@ -1,0 +1,101 @@
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Beige-Wallpaper-Desktop.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    margin: 50px;
+
+}
+
+.box{
+    background-color: blanchedalmond;
+    padding: 20px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow:0 4px 12px rgba(0, 0, 0.5) ;
+    width: 500px;
+}
+
+h1{
+    text-align: center;
+}
+
+.form{
+    padding: 30px 40px;
+}
+
+.form-control{
+    margin: 5px;
+    padding-bottom: 5px;
+    position: relative;
+   text-align: center;
+
+}
+
+.form-control label{
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input{
+    border-style: solid;
+    border-width: 2px;
+    border-color: antiquewhite;
+    border: radius 5px; 
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: medium;
+}
+
+.form-control.success input{
+    border-color: green;
+}
+
+.form-control.error input{
+    border-color: red;
+}
+
+.form-control small{
+    
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.error small{
+    visibility: visible;
+}
+
+.form button{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9e4c5;
+
+}
+
+.form button:hover{
+    background-color: #82624d;
+    color: white;
+    box-shadow: none;
+}
+
