@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Themes</title>
+    <link rel="stylesheet" id="switcher-id" href="">
+    <link rel="stylesheet" href="Theme.css">
+  </head>
+  <body>
+
+    <div class="Menu" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+
+    <header>
+      <h1> Theme </h1>
+      <p>Press the button to toggle between themes</p>
+      <div class="theme-switches">
+          <div data-theme="default" class="switch" id="switch-1"></div>
+          <div data-theme="night" class="switch" id="switch-2"></div>
+          <div data-theme="comfort" class="switch" id="switch-3"></div>
+      </div>
+  </header>
+  
+
+    <div id="OverlayMenu" class="SideMenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closebtn()">&times;</a>
+        <a href="Calendar.html">Calendar</a>
+        <a href="Diary.html">Diary</a>
+        <a href="#">Your Mood</a>
+        <a href="To-do.html">To-Do List</a>
+        <a href="Theme.html">Change Theme</a>
+        <a href="#">Profile Setting</a>
+        <a href="Login page.html">Log Out</a>
+      </div>
+      <script src="calendar.js"></script>
+      <script src="To-do.js"></script>
+      <script src="Theme.js"></script>
+   
+  </body>
+  
+</html>
