@@ -1,0 +1,105 @@
+:root {
+  --default: #ffffff;
+  --comfort: #6a1a4d;
+  --night: #080809;
+}
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-size: 700px;
+}
+
+header {
+  padding: 50px 0;
+  width: 40%;
+  min-width: 450px;
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 2px;
+  padding: 30px 40px;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  
+}
+
+.theme-switches {
+  display: flex;
+  justify-content: center;
+}
+
+.switch {
+  border: 2px solid white;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.switch:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
+
+#switch-1 {
+  background-color: var(--default);
+}
+#switch-2 {
+  background-color: var(--night);
+
+}
+#switch-3 {
+  background-color: var(--comfort);
+
+}
+
+.Menu {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.SideMenu {
+  height: 100%; 
+  width: 0; 
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #20110c; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+.SideMenu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.SideMenu a:hover {
+  color: #b65454;
+}
+
+.SideMenu .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
