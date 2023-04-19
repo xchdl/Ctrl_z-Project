@@ -4,14 +4,14 @@ body {
     background-size: 700px;
     margin: 20px;
 }
-  .text-center {
+  .text {
     background-color: #f3e2c9;
     padding: 20px;
     color: #422d0f;
     border-radius: 10px;
   }
   
-  .card-title {
+  .box-title {
     font-size: 30px;
     margin: 0;
     background-color: #f3e2c9;
@@ -20,13 +20,14 @@ body {
 
   }
 
-  .card-body{
+  .box-body{
     background-color: #f3e2c9;
     padding: 10px;
     border-radius: 10px;
+    
   }
   
-  #down {
+  #entries {
     padding: 10px;
     background-color: #f3e2c9;
     border-radius: 10px;
@@ -163,3 +164,9 @@ body {
     font-size: 36px;
     margin-left: 50px;
   }
+
+  .btn del {
+    margin-right: 10px;
+  }
+
+  
