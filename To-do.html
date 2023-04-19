@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dynamic Calendar JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="Calendar.css">
+    <link rel="stylesheet" href="To-do.css">
+    <script src="To-do.js"></script>
+    <link id="theme" rel="stylesheet" href="Theme.css">
+    <link id="switcher-id" rel="stylesheet" href="Themes/default.css">
+    <script src="Theme.js"></script>
+    
+  </head>
+  <body>
+    <div class="Menu" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+      <div class="myList">
+
+        <header>
+            <h1> My To Do List </h1> 
+        </header>
+
+
+        <div id="todo">
+            <input type="text" placeholder="Add a task">
+            <button id="butn">+</button>
+        </div>
+        <div id="list"></div>
+    </div>
+
+    <div id="OverlayMenu" class="SideMenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closebtn()">&times;</a>
+        <a href="Calendar.html">Calendar</a>
+        <a href="Diary.html">Diary</a>
+        <a href="#">Your Mood</a>
+        <a href="To-do.html">To-Do List</a>
+        <a href="#">Change Theme</a>
+        <a href="#">Profile Setting</a>
+        <a href="Login page.html">Log Out</a>
+      </div>
+      <script src="calendar.js"></script>
+      <script src="To-do.js"></script>
+
+  </body>
+</html>

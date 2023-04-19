@@ -73,13 +73,25 @@ form.addEventListener('submit', function (e) {
         checkLength(password, 6, 25);
         checkEmail(email);
         checkPasswordsMatch(password, password2);
-
-        if (right1 && right2 && right3) {
-          // Redirect to login form
-          window.location.href = "Login Page.html";
-      }
-      localStorage.setItem('username', username.value);
-      localStorage.setItem('password', password.value);
       });
-   
+
+
+      const signupForm = document.querySelector('#form');
+
+signupForm.addEventListener('submit', function(e) {
+  e.preventDefault();
+  const email = document.querySelector('#email').value;
+  const password = document.querySelector('#password').value;
   
+  
+  const user = { email: email, password: password };
+  
+  
+  localStorage.setItem('user', JSON.stringify(user));
+  if(right1==true&&right2==true&&right3==true){
+    window.location.href = 'Login page.html';
+  }
+  
+  
+  
+});
