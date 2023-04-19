@@ -83,15 +83,15 @@ signupForm.addEventListener('submit', function(e) {
   const email = document.querySelector('#email').value;
   const password = document.querySelector('#password').value;
   
-  // Create an object to store the user's information
+  
   const user = { email: email, password: password };
   
-  // Store the user object in Local Storage
+  
   localStorage.setItem('user', JSON.stringify(user));
   if(right1==true&&right2==true&&right3==true){
     window.location.href = 'Login page.html';
   }
   
-  // Redirect the user to the login page
+  
   
 });
