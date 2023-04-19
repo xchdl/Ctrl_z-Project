@@ -1,0 +1,16 @@
+body {
+    background-image: var(--bg-image);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family:'Times New Roman', Times, serif; 
+    transition: background-image 0.5s ease, background-color 0.5s ease, color 0.5s ease;
+  }
+
+* {
+    --bg-image: url('https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Beige-Wallpaper-Desktop.jpg');
+    --bg-color: #f9e4c5;
+    --text-color: #866545;
+    --button-bg-color: #fff;
+    --button-text-color: #2B2D42;
+    --button-hover-color: #F0F2F5;
+  }
