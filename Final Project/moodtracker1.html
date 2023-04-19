@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mood Tracker</title>
+    <link href="moodtracker1.css" rel="stylesheet">
+    
+</head>
+<body>
+	
+	<div class="Menu" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+	
+    <div id="box">
+	<header>
+		<h1>Mood Tracker</h1>
+	</header>
+
+    <h3>How are you feeling today?</h3>
+
+	<section id="mood-tracker">
+		<form>
+			<button id="myButton1" type="button" class="emoji-button" onclick="toggleButton('myButton1')" value="😊">😊</button>
+			<button id="myButton2" type="button" class="emoji-button"  onclick="toggleButton('myButton2')"value="😐">😐</button>
+			<button id="myButton3" type="button" class="emoji-button"  onclick="toggleButton('myButton3')"value="😢">😢</button>
+			<button id="myButton4" type="button" class="emoji-button"  onclick="toggleButton('myButton4')" value="😡">😡</button>
+			<button id="myButton5" type="button" class="emoji-button"  onclick="toggleButton('myButton5')" value="😴">😴</button>
+
+			<button id="button" type="submit">Submit</button>
+		</form>
+
+		<div id="mood-average">
+			<p>Average Mood: </p>
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 Mood Tracker</p>
+	</footer>
+  </div>
+  <script src="moodtracker1.js"></script>
+	
+	 <div id="OverlayMenu" class="SideMenu">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closebtn()">&times;</a>
+                        <a href="Calendar.html">Calendar</a>
+                        <a href="Diary.html">Diary</a>
+                        <a href="moodtracker.html">Your Mood</a>
+                        <a href="To-do.html">To-Do List</a>
+                        <a href="#">Change Theme</a>
+                        <a href="#">Profile Setting</a>
+                        <a href="Login page.html">Log Out</a>
+                      </div>
+</body>
+</html>
