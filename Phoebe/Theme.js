@@ -1,28 +1,26 @@
-const themeToggle = document.getElementById('theme-toggle');
-const body = document.querySelector('body');
-const Themes = document.querySelector('.Themes');
-let currentTheme = localStorage.getItem('theme');
+let switches = document.getElementsByClassName('switch');
+let style = localStorage.getItem('style');
 
-if (currentTheme) {
-  body.classList.add(currentTheme);
-  Themes.classList.add(currentTheme);
+if (style == null) {
+  setTheme('default');
 } else {
-  body.classList.add('light');
-  Themes.classList.add('light');
+  setTheme(style);
 }
 
-themeToggle.addEventListener('click', () => {
-  if (body.classList.contains('light')) {
-    body.classList.remove('light');
-    Themes.classList.remove('light');
-    body.classList.add('dark');
-    Themes.classList.add('dark');
-    localStorage.setItem('theme', 'dark');
-  } else {
-    body.classList.remove('dark');
-    Themes.classList.remove('dark');
-    body.classList.add('light');
-    Themes.classList.add('light');
-    localStorage.setItem('theme', 'light');
+for (let i of switches) {
+  i.addEventListener('click', function () {
+    let theme = this.dataset.theme;
+    setTheme(theme);
+  });
+}
+
+function setTheme(theme) {
+  if (theme == 'default') {
+    document.getElementById('switcher-id').href = './Project/Themes/default.css';
+  } else if (theme == 'night') {
+    document.getElementById('switcher-id').href = './Project/Themes/night.css';
+  } else if (theme == 'comfort') {
+    document.getElementById('switcher-id').href = './Project/Themes/comfort.css';
   }
-});
+  localStorage.setItem('style', theme);
+}
