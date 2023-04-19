@@ -1,66 +1,49 @@
-body {
-    background-image: var(--bg-image);
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    font-family: Arial, sans-serif;
-    transition: background-image 0.5s ease, background-color 0.5s ease, color 0.5s ease;
-  }
-  
-  .Themes {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    
-  }
-  
-  h1 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-top: 0;
-  }
-  
-  p {
-    font-size: 18px;
-    line-height: 1.5;
-  }
-  
-  .button {
-    background-color: var(--button-bg-color);
-    color: var(--button-text-color);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-  }
-  
-  .button:hover {
-    background-color: var(--button-hover-color);
-  }
-  
-  .light {
-    --bg-image: url('https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Beige-Wallpaper-Desktop.jpg');
-    --bg-color: #f9e4c5;
-    --text-color: #866545;
-    --button-bg-color: #fff;
-    --button-text-color: #2B2D42;
-    --button-hover-color: #F0F2F5;
-  }
 
-  .light .toggle-text {
-    content: "Light Mode";
-  }
-  
-  .dark {
-    --bg-image: url('https://www.pixelstalk.net/wp-content/uploads/images6/Iphone-Aesthetic-Wallpaper-HD-Dark-Moon.jpg');
-    --bg-color: #F0F2F5;
-    --text-color: #d1cada;
-    --button-bg-color: #2B2D42;
-    --button-text-color: #fff;
-    --button-hover-color: #1D1F2F;
-  }
+header {
+  padding: 50px 0;
+  width: 40%;
+  min-width: 450px;
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 2px;
+  padding: 30px 40px;
+}
 
-  .dark .toggle-text {
-    content: "Dark Mode";
-  }
+h1{
+  text-align: center;
+  font-size: 50px;
+  
+}
+
+.theme-switches {
+  display: flex;
+  justify-content: center;
+}
+
+.switch {
+  border: 2px solid white;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.switch:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
+
+#switch-1 {
+  background-color: var(--default);
+}
+#switch-2 {
+  background-color: var(--dark);
+}
+#switch-3 {
+  background-color: var(--comfort);
+}
+
+
