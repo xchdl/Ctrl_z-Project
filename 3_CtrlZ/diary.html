@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="Diary.css" rel="stylesheet">
+    <link rel="stylesheet" href="Welcome Page.css">
+    <script src="Welcome Page.js"></script>
+    <title>Diary Buddy</title>
+    <link id="theme" rel="stylesheet" href="Theme.css">
+    <link id="switcher-id" rel="stylesheet" href="Themes/default.css">
+    <script src="Theme.js"></script>
+</head>
+
+<body>
+    <div class="Menu" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    <div class="container my-4">
+        <h1 class="text-center">Your Diary</h1>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Write a story</h5>
+                <div class="mb-3">
+
+                    <textarea class="form-control" id="addTxt" rows="3"></textarea>
+                </div>
+                <a href="#" class="btn btn-primary" id="addBtn">Add Story</a>
+            </div>
+        </div>
+        <h2 id="down">Your Entries</h2>
+        <div id="stories" class="row container-fluid"></div>
+            <div id="OverlayMenu" class="SideMenu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closebtn()">&times;</a>
+                <a href="Calendar.html">Calendar</a>
+                <a href="Diary.html">Diary</a>
+                <a href="moodtracker1.html">Your Mood</a>
+                <a href="To-do.html">To-Do List</a>
+                <a href="Theme.html">Change Theme</a>
+                <a href="profset.html">Profile Setting</a>
+                <a href="Login page.html">Log Out</a>
+              </div>
+        
+
+
+    </div>
+    <script src="diary.js"></script>
+  
+</body>
+
+</html>

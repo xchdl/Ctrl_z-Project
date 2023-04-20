@@ -1,0 +1,112 @@
+body {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Beige-Wallpaper-Desktop.jpg") ;
+    background-size: 700px;
+}
+
+#h{
+    font-size: 30px;
+}
+
+#lname{
+    margin-left: 50px;
+    font-size: 20px;
+}
+#lname1{
+    margin-left: 55px;
+    font-size: 20px;    
+}
+#lname2{
+     margin-left: 80px;
+     font-size: 20px;
+  }
+#use{
+    font-size: 20px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+
+
+#hi {
+    background-color: #e2c9a7;
+    padding: 10px 50px 10px 50px;
+    text-align: left;
+}
+
+#bye{
+    background-color: #f3e2c9;
+    padding: 10px ;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#sub{
+    margin-left: 185px;
+    margin-top: 10px;
+}
+
+#date{
+    margin-left: 77px;
+    margin-top: 10px;
+
+}
+
+#show{
+    margin-left: 145px;
+    margin-top: 5px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.Menu {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+.SideMenu {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #20110c; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+  .SideMenu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .SideMenu a:hover {
+    color: #b65454;
+  }
+  
+  .SideMenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }

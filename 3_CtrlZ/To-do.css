@@ -1,0 +1,173 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Beige-Wallpaper-Desktop.jpg);
+    background-size: 700px;
+    
+}
+    *,
+    *:before,
+    *:after{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color: #7a644a;
+        background-color: #e2c9a7;
+        margin: 0;
+        width: 100%;
+        width: 100%;
+        height: 90px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        border: 2px solid #e2c9a7;
+        padding: 12px; 
+        position: relative;
+        border-radius: 5px;
+        bottom: 5px;
+     
+    }
+    
+
+    body{
+        height: 100vh;
+    }
+    .myList{
+        width: 40%;
+        min-width: 450px;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 80px;
+        padding: 30px 40px;
+        
+        
+    }
+    #todo{
+        position: relative;
+        background-color: #e2c9a7;
+        padding: 30px 20px;
+        border-radius: 5px;
+        
+    }
+    #todo input{
+        width: 70%;
+        width: 70%;
+        height: 45px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        border: 2px solid #e2c9a7;
+        padding: 12px;
+        color: #61422b;
+        font-weight: 500;
+        position: relative;
+        border-radius: 5px;
+    }
+    #todo input:focus{
+        outline: none;
+        border-color:#e2c9a7;
+    }
+    
+    #todo button{
+        position: relative;
+        float: right;
+        width: 20%;
+        height: 45px;
+        border-radius: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+        font-size: 16px;
+        background-color: #7a644a;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        outline: none;
+    }
+    #list{
+        background-color: #e2c9a7;
+        padding: 30px 20px;
+        margin-top: 60px;
+        border-radius: 10px;
+        width: 100%;
+        position: relative;
+    }
+    .task{
+        background-color: #ffffff;
+        height: 50px;
+        padding: 5px 10px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid #d1d3d4;
+        cursor: pointer;
+    }
+    .task span{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .task button{
+        background-color: #7a644a;
+        color: #ffffff;
+        height: 100%;
+        width: 40px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+    .completed{
+        text-decoration: line-through;
+        color: red;
+    }
+    .Menu {
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+    .SideMenu {
+        height: 100%; 
+        width: 0; 
+        position: fixed;
+        z-index: 1; 
+        top: 0; 
+        left: 0;
+        background-color: #20110c; 
+        overflow-x: hidden; 
+        padding-top: 60px; 
+        transition: 0.5s; 
+      }
+      
+      .SideMenu a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .SideMenu a:hover {
+        color: #b65454;
+      }
+      
+      .SideMenu .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }

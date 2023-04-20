@@ -1,0 +1,146 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Beige-Wallpaper-Desktop.jpg);
+  background-size: 700px;
+}
+
+
+body{
+display: flex;
+padding: 10px;
+padding-left: 2px;
+}
+
+
+.Calendar{
+width: 450px;
+background-color: #f9e4c5;
+border: 5px outset #845f4e;
+text-align: center;
+margin-left: 500px;
+margin-top: 65px;
+
+}
+.Calendar header{
+display: flex;
+align-items: center;
+padding: 25px 30px 10px;
+justify-content: space-between;
+}
+
+header .icons span{
+height: 38px;
+width: 38px;
+margin: 0 1px;
+cursor: pointer;
+color: #3b2910;
+text-align: center;
+line-height: 38px;
+font-size: 30.4px;
+user-select: none;
+border-radius: 50%;
+}
+
+header .icons span:hover{
+background:brown;
+}
+header .current-date{
+font-size: 1.45rem;
+font-weight: 500;
+}
+.calendar{
+padding: 20px;
+}
+.calendar ul{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+text-align: center;
+}
+.calendar .days{
+margin-bottom: 20px;
+}
+.calendar li{
+color: #333;
+width: calc(100% / 7);
+font-size: 17.12px;
+}
+.calendar .weeks li{
+font-weight: 500;
+cursor: default;
+}
+.calendar .days li{
+z-index: 1;
+cursor: pointer;
+position: relative;
+margin-top: 30px;
+}
+.days li.inactive{
+opacity: 0.4;
+}
+.days li.active{
+color: #ffffff;
+}
+.days li::before{
+position: absolute;
+content: "";
+left: 50%;
+top: 50%;
+height: 40px;
+width: 40px;
+z-index: -1;
+border-radius: 50%;
+transform: translate(-50%, -50%);
+}
+.days li.active::before{
+background: brown;
+}
+.days li:not(.active):hover::before{
+background: brown;
+}
+
+.Menu {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.SideMenu {
+  height: 100%; 
+  width: 0; 
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #20110c; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+.SideMenu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.SideMenu a:hover {
+  color: #b65454;
+}
+
+.SideMenu .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
