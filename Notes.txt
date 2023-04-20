@@ -6,3 +6,4 @@ As a group, we decided to remove the forget and reset password function because 
 We could only implement it using Nodemailer and Mongoose; both did not seem to be part of the libraries provided. 
 The option to doodle and add images to our diary entries was also left out because creating the diary entries took a lot of work. 
 As for the language settings, after some thought and a little research, we decided to exclude this as it was very complicated, and we needed guidance on how to link it with all the pages.
+For the Log Out button, we weren't able to implement the function where the button logs out the user while keeping the saved information in the local storage, and allowing the new users to enter.
