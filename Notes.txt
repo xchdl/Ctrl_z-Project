@@ -1,0 +1,8 @@
+During this project's duration, we encountered challenges and had to omit a few of the project requirements. 
+We were very ambitious and added some complicated processes to our project. 
+The functions in our password-protected diary that we had to remove were the forgot password, reset password, doodling and adding image functions in our diary entry and the language settings; we also decided to remove the reminders as it's the same as the to-do list. 
+There were also some complications with the date of birth section on our profile settings; hence we decided to delete the date of birth option; everything else works besides that. 
+As a group, we decided to remove the forget and reset password function because after researching and watching plenty of videos to get an idea of how to do it, most of the example codes shown were out of the scope of what we could use. 
+We could only implement it using Nodemailer and Mongoose; both did not seem to be part of the libraries provided. 
+The option to doodle and add images to our diary entries was also left out because creating the diary entries took a lot of work. 
+As for the language settings, after some thought and a little research, we decided to exclude this as it was very complicated, and we needed guidance on how to link it with all the pages.
